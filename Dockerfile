@@ -1,3 +1,4 @@
+# TODO: Do not depend on this image
 FROM ghcr.io/js2264/oma:latest as base
 
 # Add your additional instructions here
