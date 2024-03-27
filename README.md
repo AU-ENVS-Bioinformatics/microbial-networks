@@ -1,6 +1,7 @@
 # microbial-networks
 
-To run the Dockerfile, use the following command:
+## Start an interactive shell 
+To run an interactive shell you can use the following command. Your current directory (pwd) will be binded to /home/rstudio/data, so make sure you save your results there. 
 ```bash
-docker run -v "$(pwd)":/home/rstudio/data -p 8787:8787 ...
+docker run --rm -it -v "$(pwd)":/home/rstudio/data ghcr.io/au-envs-bioinformatics/microbial-networks:main bash
 ```
